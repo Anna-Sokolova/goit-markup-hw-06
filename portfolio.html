@@ -404,18 +404,24 @@
           </ul>
         </div>
 
-        <div class="subscription-box">
-          <p class="social title">Подпишитесь на рассылку</p>
-          <div class="content-box">
-            <p class="mail-box">E-mail</p>
-            <button type="button" class="button subscription">
+        <form>
+          <label for="email" class="label-title">Подпишитесь на рассылку</label>
+          <div class="form-email">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="email"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="button">
               Подписаться
               <svg class="icon-subscription" width="24" height="24">
                 <use href="./img/svg/sprite.svg#icon-icon-send"></use>
               </svg>
             </button>
           </div>
-        </div>
+        </form>
       </div>
     </footer>
   </body>
